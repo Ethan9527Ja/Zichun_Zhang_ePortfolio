@@ -42,16 +42,38 @@ app.innerHTML = `
           </h2>
           <div class="mindmap-wrapper">
             <div class="mindmap-frame" id="mindmap-window" role="button" tabindex="0" aria-label="Click to enlarge mind map">
-              <img class="mindmap-img" id="mindmap-img" src="${base}mindmap.png" alt="Provocation Mind Map for middle years arts inquiry" />
+              <img class="mindmap-img" id="mindmap-img" src="${base}mind.png" alt="Provocation Mind Map for middle years arts inquiry" />
             </div>
           </div>
           <div class="mindmap-lightbox" id="mindmap-lightbox" role="dialog" aria-modal="true" aria-label="Enlarged mind map" aria-hidden="true">
             <div class="mindmap-lightbox-backdrop" id="mindmap-lightbox-backdrop"></div>
             <button type="button" class="mindmap-lightbox-close" id="mindmap-lightbox-close" aria-label="Close">×</button>
             <div class="mindmap-lightbox-inner">
-              <img src="${base}mindmap.png" alt="Provocation Mind Map for middle years arts inquiry (enlarged)" />
+              <img src="${base}mind.png" alt="Provocation Mind Map for middle years arts inquiry (enlarged)" />
             </div>
             <p class="mindmap-lightbox-hint">Click outside or press Esc to close</p>
+          </div>
+        </div>
+      </section>
+      <section class="section references-section" id="references" aria-labelledby="references-heading">
+        <div class="container">
+          <h2 id="references-heading" class="section-title">Reference List</h2>
+          <div class="references-list">
+            <p class="ref-entry">
+              Australian Curriculum, Assessment and Reporting Authority. (2022). <i>Australian curriculum: The arts</i> (Version 9.0). <a href="https://www.australiancurriculum.edu.au/curriculum-information/understand-this-learning-area/the-arts/" target="_blank" rel="noopener noreferrer">https://www.australiancurriculum.edu.au/curriculum-information/understand-this-learning-area/the-arts/</a>
+            </p>
+            <p class="ref-entry">
+              Dinham, J. (2023). <i>Delivering authentic arts education</i> (5th ed.). Cengage.
+            </p>
+            <p class="ref-entry">
+              Shi, Y. (2025). Multimodal teaching in digital media arts education: Insights and challenges from teachers' perspectives. <i>Cogent Education</i>, <i>12</i>(1). <a href="https://doi.org/10.1080/2331186X.2025.2590849" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/2331186X.2025.2590849</a>
+            </p>
+            <p class="ref-entry">
+              Tam, C. O. (2023). Integrating creative thinking skills pedagogies into a higher education visual arts course. <i>The International Journal of Art &amp; Design Education</i>, <i>42</i>(1), 16–32. <a href="https://doi.org/10.1111/jade.12452" target="_blank" rel="noopener noreferrer">https://doi.org/10.1111/jade.12452</a>
+            </p>
+            <p class="ref-entry">
+              Yuan, Y., &amp; Yang, J. (2024). An investigation of the effects of using audio-visual language education integrated art teaching on students' learning motivation and outcome. <i>Revista de Cercetare Şi Intervenţie Socială</i>, <i>87</i>(87), 252–264. <a href="https://doi.org/10.33788/rcis.87.15" target="_blank" rel="noopener noreferrer">https://doi.org/10.33788/rcis.87.15</a>
+            </p>
           </div>
         </div>
       </section>

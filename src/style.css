@@ -633,6 +633,43 @@ body {
   margin: 0;
 }
 
+/* ===== Reference List (APA 7th) ===== */
+.references-section {
+  background: var(--bg-card);
+}
+
+.references-list {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.ref-entry {
+  margin: 0 0 1.25rem;
+  padding-left: 2em;
+  text-indent: -2em;
+  line-height: 1.7;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+
+.ref-entry i {
+  font-style: italic;
+}
+
+.ref-entry a {
+  color: var(--accent);
+  word-break: break-all;
+}
+
+.ref-entry a:hover {
+  text-decoration: underline;
+}
+
+.ref-entry:last-child {
+  margin-bottom: 0;
+}
+
 /* ===== Footer ===== */
 .footer {
   margin-top: auto;

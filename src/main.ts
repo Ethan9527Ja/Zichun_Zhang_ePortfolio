@@ -26,23 +26,9 @@ app.innerHTML = `
             <span class="title-en">Part A (1)</span>
             <span class="title-zh">Funds of Knowledge Video</span>
           </h2>
-          <p class="requirement-text">
-            A 3–4 minute video critically reflecting on the funds of knowledge I bring to teaching the arts to middle years learners—values, cultural and linguistic heritage, attitudes, interests, skills and knowledge—including strengths and limitations. The video uses visual, aural and linguistic modes, face-to-camera presentation, and in-text references to course theory and literature.
-          </p>
           <div class="video-wrapper">
             <div class="video-frame" id="video-window">
-              <div class="video-placeholder" id="video-placeholder">
-                <div class="placeholder-content">
-                  <svg class="play-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                    <path d="M8 5v14l11-7z"/>
-                  </svg>
-                  <p>Embed your Funds of Knowledge video here</p>
-                  <span class="placeholder-hint">3–4 min · Use iframe (YouTube/Bilibili) or &lt;video&gt; for local file</span>
-                </div>
-              </div>
-              <!-- Replace placeholder with your embed, e.g.:
-              <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" title="Funds of Knowledge Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              or <video src="/your-video.mp4" controls></video> -->
+              <iframe src="https://www.youtube.com/embed/3KpeY0FAnEI" title="Funds of Knowledge Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
         </div>

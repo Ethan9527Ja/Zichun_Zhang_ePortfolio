@@ -45,14 +45,15 @@ git push -u origin main
 4. **Branch** 选 `main`，文件夹选 `/ (root)` 或 `docs`（若你把构建结果放在 `docs`）
 5. 若选 root：先在本机执行 `npm run build`，把 `dist` 里的内容单独提交到一个分支或把 `dist` 内容复制到项目根目录再提交（或使用 GitHub Actions 自动构建）
 
-**本项目已包含 GitHub Actions 工作流**（`.github/workflows/deploy.yml`），推送到 `main` 后会自动构建并部署。
+**本项目已包含 GitHub Actions 工作流**（`.github/workflows/deploy.yml`），推送到 `main` 后会自动构建并把结果推到 `gh-pages` 分支。
 
-首次推送后：
+**避免空白页——请按下面设置：**
 
 1. 打开 <https://github.com/Ethan9527Ja/Zichun_Zhang_ePortfolio>
 2. 进入 **Settings** → 左侧 **Pages**
-3. 在 **Build and deployment** 的 **Source** 中选择 **GitHub Actions**
-4. 等待 Actions 运行完成（约 1–2 分钟）
+3. 在 **Build and deployment** 的 **Source** 中选择 **Deploy from a branch**（不要选 GitHub Actions）
+4. **Branch** 选 **gh-pages**，**Folder** 选 **/ (root)**，点 Save
+5. 若还没有 `gh-pages` 分支，先推送一次代码到 `main`，等 Actions 跑完（约 1–2 分钟）再保存上述设置
 
 部署完成后，网站地址为：  
 **https://ethan9527ja.github.io/Zichun_Zhang_ePortfolio/**

@@ -2,6 +2,7 @@ import './style.css';
 
 const app = document.querySelector<HTMLDivElement>('#app')!;
 const base = import.meta.env.BASE_URL;
+const partBDocUrl = `${base}Arts%204%20Secondary%20Teaching%201%20March%202026%20(1).docx`;
 
 app.innerHTML = `
   <div class="portfolio">
@@ -52,6 +53,24 @@ app.innerHTML = `
               <img src="${base}mind.png" alt="Provocation Mind Map for middle years arts inquiry (enlarged)" />
             </div>
             <p class="mindmap-lightbox-hint">Click outside or press Esc to close</p>
+          </div>
+        </div>
+      </section>
+      <section class="section partb-section" id="part-b" aria-labelledby="part-b-heading">
+        <div class="container">
+          <h2 id="part-b-heading" class="section-title">
+            <span class="title-en">Part B (Week 6)</span>
+            <span class="title-zh">Draft Lesson / Learning Experience</span>
+          </h2>
+          <p class="requirement-text">
+            Part B lesson plan document is attached below for review.
+          </p>
+          <div class="partb-card">
+            <p class="partb-file-name">Arts 4 Secondary Teaching 1 March 2026 (1).docx</p>
+            <div class="partb-actions">
+              <a class="partb-btn" href="${partBDocUrl}" target="_blank" rel="noopener noreferrer">Open Part B</a>
+              <a class="partb-btn partb-btn-secondary" href="${partBDocUrl}" download>Download .docx</a>
+            </div>
           </div>
         </div>
       </section>
